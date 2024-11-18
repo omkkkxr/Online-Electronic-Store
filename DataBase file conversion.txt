@@ -1,0 +1,5 @@
+First step -
+imp system/123@orcl2 file=export.dmp fromuser=system touser=target_user
+Second step -
+exp username/password@database file=output.sql fromuser=target_user tables=admin,product,customer
+
