@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Customer Login</title>
+	<link rel="stylesheet" href="css/CustomerLogin.css">
+</head>
+
+<body>
+	<div class="container">
+		<h1>Welcome to Customer Login</h1>
+		<form action="cls" method="post">
+			<h2>Please Login</h2>
+			<input type="text" name="cuname" placeholder="Enter your username" required>
+			<input type="password" id="myInput" name="cpass" placeholder="Enter your password" required>
+			<label class="show-password">
+				<input type="checkbox" onclick="myFunction()"> Show Password
+			</label>
+			<input type="submit" value="Login">
+			<a href="CustomerRegister.html">New Customer? Register here</a>
+		</form>
+	</div>
+<script src="js/showPassword.js"></script>
+	
+</body>
+
+</html>

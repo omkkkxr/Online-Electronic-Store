@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Admin Login</title>
+	<link rel="stylesheet" href="css/styles.css">
+		
+</head>
+
+<body>
+	<form action="alog" method="post">
+		<h1>Admin Login</h1>
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="ausername" placeholder="Enter your username" required>
+		<label for="password">Password:</label>
+		<input type="password" id="myInput" name="apwd" placeholder="Enter your password" required>
+		<div class="show-password">
+			<input type="checkbox" onclick="myFunction()"> Show Password
+		</div>
+		<br>
+		<input type="submit" value="Login">
+	</form>
+
+	<script src="js/showPassword.js"></script>
+		
+	
+</body>
+
+</html>
